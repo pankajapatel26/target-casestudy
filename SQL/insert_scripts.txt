@@ -1,0 +1,24 @@
+INSERT INTO `quiz`.`category` (`CAT_NAME`) VALUES ('General Knowledge');
+
+INSERT INTO `quiz`.`category` (`CAT_NAME`) VALUES ('Java');
+
+
+--
+
+INSERT INTO `quiz`.`quiz` (`CAT_ID`, `QUIZ_NAME`, `DIFFICULTY_LEVEL`, `DURATION`) VALUES ('1', 'GK - Level 1', 'EASY', '120');
+
+INSERT INTO `quiz`.`quiz` (`CAT_ID`, `QUIZ_NAME`, `DIFFICULTY_LEVEL`, `DURATION`) VALUES ('1', 'GK - level 2', 'MODERATE', '300');
+
+INSERT INTO `quiz`.`quiz` (`CAT_ID`, `QUIZ_NAME`, `DIFFICULTY_LEVEL`, `DURATION`) VALUES ('2', 'JAVA - level 1', 'EASY', '120');
+
+INSERT INTO `quiz`.`quiz` (`CAT_ID`, `QUIZ_NAME`, `DIFFICULTY_LEVEL`, `DURATION`) VALUES ('2', 'JAVA - level 2', 'MODERATE', '300');
+
+--
+INSERT INTO `quiz`.`question` (`QUESTION_DESCRIPTION`, `CHOICE1`, `CHOICE2`, `CHOICE3`, `CHOICE4`, `QUESTION_TYPE`, `QUIZ_ID`) VALUES ('Who is current PM', 'Narendra Modi', 'Manmohan Singh', 'Kumara swamy', 'Akhil Yadav', 'MC', '1');
+
+INSERT INTO `quiz`.`question` (`QUESTION_DESCRIPTION`, `CHOICE1`, `CHOICE2`, `QUESTION_TYPE`, `QUIZ_ID`) VALUES ('Human body is made up of 60% of water', 'TRUE', 'FALSE', 'TF', '1');
+---
+
+INSERT INTO `quiz`.`answer` (`QUESTION_ID`, `ANSWER`) VALUES ('2', 'CHOICE1');
+
+INSERT INTO `quiz`.`answer` (`QUESTION_ID`, `ANSWER`) VALUES ('3', 'CHOICE1');

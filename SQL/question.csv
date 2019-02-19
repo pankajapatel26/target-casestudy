@@ -1,0 +1,5 @@
+QUESTION_DESCRIPTION,CHOICE1,CHOICE2,CHOICE3,CHOICE4,QUESTION_TYPE,QUIZ_ID
+Who is the father of nation,Mahatma Ganhi,Subhash Chandra Bose,Sardar Vallabh Bai Patel,Rani Chennamma,MC,1
+Who is the current Prime Minister,Narendra Modi,Manmohan Singh,,,TF,1
+Java is object oriented language,Yes,No,,,TF,3
+Which ia not a modifier in java,public,static,void,final,MC,3

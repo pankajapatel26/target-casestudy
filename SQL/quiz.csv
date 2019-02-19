@@ -1,0 +1,5 @@
+CAT_ID,QUIZ_NAME,QUIZ_DESC,DIFFICULTY_LEVEL,DURATION
+1,GK-level 1,GK quiz level 1,Easy,30
+1,GK-level 2,GK quiz level 2,Moderate,30
+2,Java -level 1,Java quiz level 1,Easy,30
+2,Java -level 2,Java quiz level 2,Moderate,30
